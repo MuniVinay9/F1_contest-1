@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miami tourism</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Miami</h1>
+        <p>Experience the Magic of the Sunshine City</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#description">City Description</a></li>
+            <li><a href="#attractions">Attractions</a></li>
+            <li><a href="#statistics">City Statistics</a></li>
+            <li><a href="#feedback">Citizen Feedback</a></li>
+            <li><a href="#quotes">Quotes</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="description">
+        <h2>Miami: Where Dreams Come True</h2>
+        <img src="miami.jpg" alt="Miami Skyline">
+        <p>Discover a city of vibrant culture, stunning beaches, and endless possibilities.</p>
+    </section>
+    <hr>
+
+    <section id="attractions">
+        <h2>Top Attractions</h2>
+        <h3>Main Attractions</h3>
+        <ol>
+            <li>Art Deco Historic District</li>
+            <li>South Beach</li>
+            <li>Vizcaya Museum and Gardens</li>
+        </ol>
+        <h3>Local Favorites</h3>
+        <ul>
+            <li>Wynwood Walls</li>
+            <li>Little Havana</li>
+            <li>Key Biscayne</li>
+        </ul>
+    </section>
+    <hr>
+
+    <section id="statistics">
+        <h2>City Statistics</h2>
+        <table>
+            <tr>
+                <th>Population</th>
+                <th>Area</th>
+            </tr>
+            <tr>
+                <td>450,000</td>
+                <td>55 sq mi</td>
+            </tr>
+            <tr>
+                <td colspan="2">Average Temperature: 75°F</td>
+            </tr>
+        </table>
+    </section>
+    <hr>
+
+    <section id="feedback">
+        <h2>Citizen Feedback</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="1" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="category">Feedback Category:</label>
+            <select id="category" name="category" required>
+                <option value="improvement">Improvement</option>
+                <option value="compliment">Compliment</option>
+                <option value="suggestion">Suggestion</option>
+            </select><br>
+
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50" required></textarea><br>
+
+            <label>
+                <input type="checkbox" name="subscribe"> Subscribe to Newsletter
+            </label><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <hr>
+
+    <section id="quotes">
+        <h2>Quotes from Citizens</h2>
+        <p><span>"Miami is a city that never sleeps, always alive with energy and possibilities."</span> - Maria Rodriguez</p>
+        <p><span>"The diversity of cultures and cuisines in Miami is a true delight for food lovers like me."</span> - David Thompson</p>
+    </section>
+    <hr>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <address>
+            <p><em>Miami Tourism Office</em></p>
+            <p>123 Ocean Drive, Miami, FL 33139</p>
+            <a href="tel:+123456789">Phone: +1 (234) 567-89</a>
+        </address>
+    </section>
+    <hr>
+
+    <footer>
+        <p>&copy; 2023 Dream City Tours. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
